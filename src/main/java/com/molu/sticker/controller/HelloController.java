@@ -11,7 +11,7 @@ public class HelloController {
     public Mono<ResponseEntity<TempDto>> test(){
         return Mono.just(ResponseEntity.ok(
                 TempDto.builder()
-                        .name("juno!")
+                        .name("juno! v2")
                         .build()));
     }
 }
